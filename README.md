@@ -34,13 +34,13 @@ sets into one set using `rbind` fuction thought loop statement and make sure it 
 Added two columns are named of `Subjects` and `Activity` in the data set that I am already done above.
 The column of `Activity` is a numeric value. Now I am going to change to character that it correspond to the difinition 
 file what it means.
-
-|1 | WALKING             |
-|2 | WALKING_UPSTAIRS    |
-|3 | WALKING_DOWNSTAIRS  |
-|4 | SITTING             |
-|5 | STANDING            |
-|6 | LAYING              |
+--|--------------------
+1 | WALKING
+2 | WALKING_UPSTAIRS
+3 | WALKING_DOWNSTAIRS
+4 | SITTING
+5 | STANDING
+6 | LAYING
 
 ### The fourth
 
