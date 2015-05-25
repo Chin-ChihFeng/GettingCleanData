@@ -1,13 +1,13 @@
 library("dplyr")
 # Read data from source document.
 
-Training.Set <- read.table("~/UCI HAR Dataset/train/X_train.txt")
-Training.Activity <- read.table("~/UCI HAR Dataset/train/Y_train.txt")
-Training.Subjects <- read.table("~/UCI HAR Dataset/train/subject_train.txt", stringsAsFactors=FALSE)
-Test.Set <- read.table("~/UCI HAR Dataset/test/X_test.txt")
-Test.Activity <- read.table("~/UCI HAR Dataset/test/Y_test.txt")
-Test.Subjects <- read.table("~/UCI HAR Dataset/test/subject_test.txt", stringsAsFactors=FALSE)
-Variables <- read.table("~/UCI HAR Dataset/features.txt")
+Training.Set <- read.table("UCI HAR Dataset/train/X_train.txt")
+Training.Activity <- read.table("UCI HAR Dataset/train/Y_train.txt")
+Training.Subjects <- read.table("UCI HAR Dataset/train/subject_train.txt", stringsAsFactors=FALSE)
+Test.Set <- read.table("UCI HAR Dataset/test/X_test.txt")
+Test.Activity <- read.table("UCI HAR Dataset/test/Y_test.txt")
+Test.Subjects <- read.table("UCI HAR Dataset/test/subject_test.txt", stringsAsFactors=FALSE)
+Variables <- read.table("UCI HAR Dataset/features.txt")
 
 # Replace the column names to the definition by code book.
 colnames(Training.Set) <- as.vector(Variables$V2)
